@@ -31,13 +31,13 @@ public class L00053_MaximumSubarrayCalculator
     {
         Scanner sc = new Scanner(System.in);
 
-        // Input array size
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
         int[] nums = new int[n];
         System.out.println("Enter " + n + " elements:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             nums[i] = sc.nextInt();
         }
 

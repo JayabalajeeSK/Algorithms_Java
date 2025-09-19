@@ -13,11 +13,11 @@ public class L00121_StockProfitCalculator
         {
             if (price < minPrice) 
             {
-                minPrice = price; // update minimum
+                minPrice = price; 
             } 
             else if (price - minPrice > maxProfit) 
             {
-                maxProfit = price - minPrice; // update profit
+                maxProfit = price - minPrice; 
             }
         }
         return maxProfit;
@@ -26,7 +26,6 @@ public class L00121_StockProfitCalculator
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input array size
         System.out.print("Enter number of days: ");
         int n = sc.nextInt();
 

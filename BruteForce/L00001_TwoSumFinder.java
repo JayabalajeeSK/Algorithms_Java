@@ -23,7 +23,6 @@ public class L00001_TwoSumFinder
     {
         Scanner sc = new Scanner(System.in);
 
-        // Input array size
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
@@ -34,7 +33,6 @@ public class L00001_TwoSumFinder
             nums[i] = sc.nextInt();
         }
 
-        // Input target
         System.out.print("Enter target value: ");
         int target = sc.nextInt();
 
